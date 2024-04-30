@@ -29,17 +29,27 @@ The goal of this project is to provide personalized movie recommendations to use
    ```bash
    git clone https://github.com/bastisei/Data-Science-Netflix-Movie-Recommendation.git
 
-2. Navigate to the project directory: cd Data-Science-Netflix-Movie-Recommendation
+2. Navigate to the project directory: 
+   ```bash
+   cd Data-Science-Netflix-Movie-Recommendation
 
-3. Install the required dependencies: pip install -r requirements.txt
+3. Install the required dependencies: 
+   ```bash
+   pip install -r requirements.txt
 
 ## Usage
 
-1. Train and evaluate the SVD model: python src/models/train_model.py --model SVD
+1. Train and evaluate the SVD model: 
+   ```bash
+   python src/models/train_model.py --model SVD
 
-2. Train and evaluate the NMF model: python src/models/train_model.py --model NMF
+2. Train and evaluate the NMF model: 
+   ```bash
+   python src/models/train_model.py --model NMF
 
-3. Generate top movie recommendations for a user: python src/models/predict_model.py --user_id <user_id>
+3. Generate top movie recommendations for a user: 
+   ```bash
+   python src/models/predict_model.py --user_id <user_id>
 
 ## Contributing
 

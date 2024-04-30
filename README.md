@@ -1,11 +1,55 @@
+# Netflix Movie Recommendation - Collaborative Based
+
+This project aims to build a recommendation system for Netflix movies using collaborative filtering techniques. Collaborative filtering is a method used by recommendation systems to make automatic predictions about the interests of a user by collecting preferences from many users.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Source](#source)
+- [Organization](#organization)
+
+## Introduction
+
+The goal of this project is to provide personalized movie recommendations to users based on their past ratings and preferences. The recommendation system is built using collaborative filtering algorithms, specifically Singular Value Decomposition (SVD) and Non-Negative Matrix Factorization (NMF).
+
+## Features
+
+- Train and evaluate collaborative filtering models (SVD and NMF).
+- Generate top movie recommendations for users.
+- Cross-validation to evaluate model performance.
+- Save and load trained models for future use.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bastisei/Data-Science-Netflix-Movie-Recommendation.git
+
+2. Navigate to the project directory: cd Data-Science-Netflix-Movie-Recommendation
+
+3. Install the required dependencies: pip install -r requirements.txt
+
+## Usage
+
+1. Train and evaluate the SVD model: python src/models/train_model.py --model SVD
+
+2. Train and evaluate the NMF model: python src/models/train_model.py --model NMF
+
+3. Generate top movie recommendations for a user: python src/models/predict_model.py --user_id <user_id>
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, feel free to submit a pull request.
+
+## Source
+
 Data Source: https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/data
 
-Project Template
-==============================
-
-A short description of the project.
-
-Project Organization
+## Organization
 ------------
 
     ├── LICENSE
